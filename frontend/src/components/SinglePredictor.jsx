@@ -191,9 +191,6 @@ const SinglePredictor = () => {
                   {result.relocation_readiness_class}
                 </span>
               </div>
-              <p style={{ fontSize: '0.875rem', color: 'var(--text-muted)' }}>
-                Probability Score: {(result.relocation_readiness_score * 100).toFixed(2)}%
-              </p>
             </div>
 
             <div style={{ padding: '1.5rem', background: 'rgba(99, 102, 241, 0.1)', borderLeft: '4px solid var(--primary)', borderRadius: '4px' }}>

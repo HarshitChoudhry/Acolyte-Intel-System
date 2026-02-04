@@ -135,7 +135,6 @@ STU_003,6.5,65,2,0,0,3,1,0,10,150`;
                                     <th style={{ padding: '1rem' }}>Test Score</th>
                                     <th style={{ padding: '1rem' }}>Visa Likelihood</th>
                                     <th style={{ padding: '1rem' }}>Readiness</th>
-                                    <th style={{ padding: '1rem' }}>Status</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -161,9 +160,6 @@ STU_003,6.5,65,2,0,0,3,1,0,10,150`;
                                             <span className={`badge badge-${res.relocation_readiness_class.toLowerCase()}`}>
                                                 {res.relocation_readiness_class}
                                             </span>
-                                        </td>
-                                        <td style={{ padding: '1rem' }}>
-                                            {res.status === 'success' ? '✅' : '❌'}
                                         </td>
                                     </tr>
                                 ))}
