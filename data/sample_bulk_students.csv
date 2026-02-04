@@ -1,0 +1,6 @@
+student_id,gpa,test_score,study_gap,loan_sanctioned,pof_verified,uni_tier,visa_refusal,cas_issued,session_time_min,days_to_intake
+STU_001,6.9,92,0,1,1,1,0,1,45,30
+STU_002,8.5,70,2,0,0,3,1,0,10,90
+STU_003,3.2,25,1,0,1,2,0,0,9,45
+STU_004,3.9,98,0,1,1,1,0,1,60,15
+STU_005,2.1,65,4,0,1,3,1,0,5,120

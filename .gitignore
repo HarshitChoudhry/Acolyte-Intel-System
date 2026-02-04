@@ -26,7 +26,9 @@ Thumbs.db
 *.log
 .env
 
-# Test files (optional - uncomment if you don't want to commit tests)
+# Test files
 test/
-data/
-models/
+
+# Keep data and models for deployment
+# data/ - REMOVED, we need this for deployment
+# models/ - REMOVED, we need this for deployment
