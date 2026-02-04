@@ -26,7 +26,7 @@ const BulkPredictor = () => {
         formData.append('file', file);
 
         try {
-            const response = await fetch('http://localhost:8000/predict-bulk', {
+            const response = await fetch('https://acolyte-backend.onrender.com/predict-bulk', {
                 method: 'POST',
                 body: formData,
             });
